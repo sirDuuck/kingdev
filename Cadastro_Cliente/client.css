@@ -1,108 +1,66 @@
-body{
-    font-family: Arial, Helvetica, sans-serif;
-    background-color: #747474;
+body {
+    font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
-    font-size: 5px;
+    background-color: #8d8d8d;
 }
 
-h1{
+h1 {
     text-align: center;
-    color: rgb(255, 255, 255);
+    color: #fff;
+    font-size: 20px;
 }
 
-form{
-    max-width: 600px;
+.container {
+    font-size: 0px;
     margin: 0 auto;
     padding: 20px;
-/*fundo dados */
+    max-width: 600px; 
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);}
+
+form {
+   
 }
 
-label{
+label {
     font-weight: bold;
     display: block;
-    margin-bottom: 3px;
-}
+    margin-bottom: 10px;}
 
-input[type="text"] {
-    width: 50%;
-    padding: 7px;
-    margin-bottom: 10px;
-    border: 3px solid #000000;
-    border-radius: 5px;
-}
-input:hover{
-    background-color: #eceaea;
-
-}
-input[type="text"]:hover{
-    background-color: #eceaea;
-}
-
-input[type="file"]{
-    width: 50%;
-    margin-bottom: 15px;}
-    
-button{
-    padding: 10px 20px;
-    background-color: rgb(145, 145, 145);
-    color: #000000;
-    border: 3px solid #000000;
-    border-radius: 5px;
-    cursor: pointer;
-    
-}
-button:hover{
-    background-color: #aaaaaa;}
-
-textarea{
-    width: 50%;
+input[type="text"],
+input[type="file"],
+textarea,
+#wpp,
+#certfics,
+#revendedors {
+    width: 100%;
     padding: 10px;
     margin-bottom: 15px;
-    border: 3px solid #000000;
-    border-radius: 4px;
-    resize: vertical;
-}
-textarea:hover{
-    background-color: #eceaea;
-}
-
-
-#calendario{
-    padding: 10px 20px;
-    background-color: rgb(145, 145, 145);
-    color: #000000;
-    border: 3px solid #000000;
-    border-radius: 5px;
-    cursor: pointer;
-}
-#calendario:hover{
-    background-color: #aaaaaa;
-    color: #111111;
-}
-#wpp{
-    width: 50%;
-    padding: 10px;
-    margin-bottom: 15px;
-    border: 3px solid #000000;
-    border-radius: 5px;
-}
-#wpp:hover{
-    background-color: #eceaea;
-    color: #a3a3a3;
-}
-#certfics, #revendedors{
-    width: 50%;
-    padding: 10px;
-    margin-bottom: 15px;
-    border: 3px solid #000000;
+    border: 3px solid #000;
     border-radius: 5px;}
 
-#certfics:hover{
+input:hover,
+input[type="text"]:hover,
+input[type="file"]:hover,
+textarea:hover,
+#wpp:hover,
+#certfics:hover,
+#revendedors:hover {
     background-color: #eceaea;
-    color: #a3a3a3;
 }
-#revendedors:hover{
-    background-color: #eceaea;
-    color: #a3a3a3;
-}
+
+button,
+#calendario {
+    padding: 10px 20px;
+    background-color: #919191;
+    color: #000;
+    border: 3px solid #000;
+    border-radius: 5px;
+    cursor: pointer;}
+
+button:hover,
+#calendario:hover {
+    background-color: #aaaaaa;
+    color: #000; }

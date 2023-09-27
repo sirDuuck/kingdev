@@ -1,58 +1,57 @@
 <!DOCTYPE html>
 <html>
+<head>
+    <title>Cadastro do Cliente</title>
     <link rel="stylesheet" type="text/css" href="client.css">
-    <head>
-        <title>Cadastro do Cliente</title>
-    </head>
-    <body>
-        <h1>Cliente</h10>
-          <container>
-            <form>
-                
-                <label for="nome">Nome</label>
-                <input type="text" id="nome" name="name"><br><br>
-                
-                <label for="cpf">CPF</label>
-                <input type="text" id="cpf" name="cpf"><br><br>
+</head>
+<body>
+    <h1>Cliente</h1>
+    <div>
+        <form>
+            <label for="nome">Nome</label>
+            <input type="text" id="nome" name="nome"><br><br>
+            
+            <label for="cpf">CPF</label>
+            <input type="text" id="cpf" name="cpf"><br><br>
 
-                <label for="n_pedido">N° Pedido</label>
-                <input type="text" id="n_pedido" name="n_pedido">
+            <label for="n_pedido">N° Pedido</label>
+            <input type="text" id="n_pedido" name="n_pedido"><br><br>
 
-                <label for="imagem">Comprovante: PIX</label>
-                <input type="file" id="imagem" name="imagem"><br><br>
+            <label for="imagem">Comprovante: PIX</label>
+            <input type="file" id="imagem" name="imagem"><br><br>
 
-                <label for="valor">Valor Pago (R$)</label>
-                <input type="text" id="valor" name="valor" placeholder="0.00"><br><br>
+            <label for="valor">Valor Pago (R$)</label>
+            <input type="text" id="valor" name="valor" placeholder="0.00"><br><br>
 
-                <label for="motivo">Motivo</label>
-                <select id="motivo" name="motivo">
-                    <option value="choose here">Choose Here</option>
-                    <option value="direito">Direito</option>
-                    <option value="medicina">Medicina</option>
-                    <option value="revendedor">Revendedor</option>
-                    <option value="pessoal">Pessoal</option>
-                    <option value="empresa">Empresa</option>
-                </select><br><br>
+            <label for="motivo">Motivo</label>
+            <select id="motivo" name="motivo">
+                <option value="choose here">Choose Here</option>
+                <option value="direito">Direito</option>
+                <option value="medicina">Medicina</option>
+                <option value="revendedor">Revendedor</option>
+                <option value="pessoal">Pessoal</option>
+                <option value="empresa">Empresa</option>
+            </select><br><br>
 
-               <button type="button" id="start" name="start">Start</button><br><br>
+            <button type="button" id="start" name="start">Start</button><br><br>
 
-               <button type="button" id="finish" name="finish">Finish</button><br><br>
+            <button type="button" id="finish" name="finish">Finish</button><br><br>
 
-               <label for="obs">Observação</label>
-               <textarea id="obs" name="obs" rows="4" cols="50"></textarea><br><br>
-               
-               <label for="wpp">Whatsapp</label>
-               <input type="text" id="wpp" name="wpp"><br><br>
+            <label for="obs">Observação</label>
+            <textarea id="obs" name="obs" rows="4" cols="50"></textarea><br><br>
+            
+            <label for="wpp">Whatsapp</label>
+            <input type="text" id="wpp" name="wpp"><br><br>
 
-               <label for="venci_cert">Vencimento Certificado</label>
-               <button id="calendario">select</button>
+            <label for="venci_cert">Vencimento Certificado</label>
+            <button id="calendario">Select</button><br><br>
 
-               <label for="certfics">Certificados</label>
-               <input type="text" id="certfics" name="certfics"><br><br>
+            <label for="certfics">Certificados</label>
+            <input type="text" id="certfics" name="certfics"><br><br>
 
-               <label for="revendedors">Revendedores</label>
-               <input type="text" id="revendedors" name="revendedors"><br><br>
-            </form>
-          </container>
-    </body>
+            <label for="revendedors">Revendedores</label>
+            <input type="text" id="revendedors" name="revendedors"><br><br>
+        </form>
+    </div>
+</body>
 </html>

@@ -7,27 +7,28 @@ body {
 
 h1 {
     text-align: center;
-    color: #fff;
-    font-size: 20px;
+    color: #f7f7f7;
+    font-size: 50px;
 }
 
 .container {
-    font-size: 0px;
-    margin: 0 auto;
-    padding: 20px;
-    max-width: 600px; 
-    background-color: #fff;
-    border-radius: 5px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);}
-
-form {
-   
+      color: #000;
 }
 
+form {
+    max-width: 600px;
+    margin: 0 auto;
+    background-color: #8d8d8d;  
+    border-radius: 10px;
+    display: flex;
+    gap: 5px;
+    flex-wrap: wrap;
+}
 label {
     font-weight: bold;
-    display: block;
-    margin-bottom: 10px;}
+    display: flex;
+    margin-bottom: 10px; 
+    font-size: 16px;} 
 
 input[type="text"],
 input[type="file"],
@@ -35,11 +36,11 @@ textarea,
 #wpp,
 #certfics,
 #revendedors {
-    width: 100%;
-    padding: 10px;
-    margin-bottom: 15px;
+    width: 100%;  
+    padding: 2px;
     border: 3px solid #000;
-    border-radius: 5px;}
+    border-radius: 5px;
+}
 
 input:hover,
 input[type="text"]:hover,
@@ -54,13 +55,16 @@ textarea:hover,
 button,
 #calendario {
     padding: 10px 20px;
-    background-color: #919191;
+    background-color: #a7a7a7;
     color: #000;
     border: 3px solid #000;
     border-radius: 5px;
-    cursor: pointer;}
+    cursor: pointer;
+}
 
 button:hover,
 #calendario:hover {
     background-color: #aaaaaa;
-    color: #000; }
+}
+
+ 

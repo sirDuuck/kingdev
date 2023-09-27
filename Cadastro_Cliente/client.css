@@ -32,28 +32,30 @@ input[type="text"] {
     border: 1px solid #000000;
     border-radius: 5px;
 }
+input:hover{
+    background-color: #f7f4f4;
+
+}
+input[type="text"]:hover{
+    border-color:#ffffff ;
+}
 
 input[type="file"]{
     width: 90%;
-    margin-bottom: 15px;
-}
-
-select{
-    width: 90%;
-    padding: 10px;
-    margin-bottom: 15px;
-    border: 1px solid #000000;
-    border-radius: 5px;
-}
-
+    margin-bottom: 15px;}
+    
 button{
     padding: 10px 20px;
     background-color: rgb(145, 145, 145);
     color: #000000;
-    border: none;
-    border-radius: 4px;
+    border: 1px solid #000000;
+    border-radius: 5px;
     cursor: pointer;
     
+}
+button:hover{
+    background-color: #aaaaaa;
+    color: #111111;
 }
 
 textarea{
@@ -64,14 +66,22 @@ textarea{
     border-radius: 4px;
     resize: vertical;
 }
+textarea:hover{
+    background-color: #eceaea;
+}
+
 
 #calendario{
     padding: 10px 20px;
-    background-color: #a3a3a3;
-    color: rgb(0, 0, 0);
+    background-color: rgb(145, 145, 145);
+    color: #000000;
     border: 1px solid #000000;
     border-radius: 5px;
     cursor: pointer;
+}
+#calendario:hover{
+    background-color: #aaaaaa;
+    color: #111111;
 }
 #wpp{
     width: 90%;
@@ -80,9 +90,22 @@ textarea{
     border: 1px solid #000000;
     border-radius: 5px;
 }
+#wpp:hover{
+    background-color: #eceaea;
+    color: #a3a3a3;
+}
 #certfics, #revendedors{
     width: 90%;
     padding: 10px;
     margin-bottom: 15px;
     border: 1px solid #000000;
     border-radius: 5px;}
+
+#certfics:hover{
+    background-color: #eceaea;
+    color: #a3a3a3;
+}
+#revendedors:hover{
+    background-color: #eceaea;
+    color: #a3a3a3;
+}

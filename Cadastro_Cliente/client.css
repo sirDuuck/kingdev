@@ -10,6 +10,7 @@ h1 {
     text-align: center;
     color: #ffffff;
     font-size: 50px;
+    margin-top: 5px;
 }
 
 .center-container {
@@ -21,45 +22,41 @@ h1 {
     padding: 50px;
     border-radius: 5px;
     box-shadow: 0 0 10px rgb(110, 110, 110);
-}
-
- 
-label {
-    margin-bottom: 5px;
-    font-weight: bold;
+    margin: 10px;
 }
 
 input[type="text"],
 input[type="file"],
 select,
 textarea {
-    width: 100%;
     padding: 2px;
-    margin-bottom: 10px;
+    margin-bottom: 2px;
     border: 2px solid #000000;
     border-radius: 4px;
-    /* area de balões*/
 }
 
- 
 button {
     background-color: #000000;
     color: #a3a3a3;
     border: 2px;
-    padding: 10px 20px;
+    padding: 10px 8px;
     cursor: pointer;
     border-radius: 4px;
 }
-
- 
+#calendario-container {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin: 1px;
+}
 #calendario {
     background-color: #000000;
     border: 2px;
     cursor: pointer;
     border-radius: 4px;
+    
 }
 
- 
 ion-icon {
     font-size: 24px;
     vertical-align: middle;
@@ -67,9 +64,8 @@ ion-icon {
 
  
 #obs {
-    width: 100%;
-    padding: 8px;
-    margin-bottom: 10px;
+    padding: 10px;
+    margin-bottom: 1px;
     border: 2px solid #000000;
     border-radius: 4px;
 }
@@ -86,6 +82,8 @@ div[style^="width"] {
     flex: 1;
     margin: 10px;
 }
+
+ 
 .button-container {
     display: flex;
     justify-content: center;
@@ -94,8 +92,5 @@ div[style^="width"] {
 
 .button1,
 .button2 {
-    display: flex;
-    justify-content: center;
-    margin-top: 20px;
-    margin: 0 10px;
+    margin: 0 10px;  
 }

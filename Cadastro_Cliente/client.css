@@ -38,7 +38,7 @@ textarea,
 #revendedors {
     width: 100%;  
     padding: 2px;
-    border: 3px solid #000;
+    border: 2px solid #000;
     border-radius: 5px;
 }
 
@@ -54,7 +54,7 @@ textarea:hover,
 
 button,
 #calendario {
-    padding: 10px 20px;
+    padding: 5px 5px;
     background-color: #a7a7a7;
     color: #000;
     border: 3px solid #000;

@@ -7,34 +7,34 @@
 </head>
 <body>
     <h1>Cliente</h1>
-    <div>
+    <div class="center-container">
         <form>
-            <div style="width: 20rem;">
+            <div style="width: 10rem;">
                 <label for="nome">Nome</label>
                 <input type="text" id="nome" name="nome">
             </div>
 
-            <div style="width: 10rem;">
+            <div style="width: 6rem;">
                 <label for="cpf">CPF</label>
                 <input type="text" id="cpf" name="cpf">
             </div>
 
-            <div style="width: 5rem;">
+            <div style="width: 7rem;">
                 <label for="n_pedido">N° Pedido</label>
                 <input type="text" id="n_pedido" name="n_pedido">
             </div>
 
-            <div style="width: 5rem;">
+            <div style="width: 9rem;" class="input-container">
                 <label for="imagem">Comprovante: PIX</label>
                 <input type="file" id="imagem" name="imagem">
             </div>
 
-            <div style="width: 2rem;">
+            <div style="width: 5rem;">
                 <label for="valor">Valor Pago (R$)</label>
                 <input type="text" id="valor" name="valor" placeholder="0.00">
             </div>
 
-            <div style="width: 10rem;">
+            <div style="width: 5rem;">
                 <label for="motivo">Motivo</label>
                 <select id="motivo" name="motivo">
                     <option value="choose here">Escolha Aqui</option>
@@ -46,9 +46,13 @@
                 </select>
             </div>
 
-            <div style="width: 10rem;">
-                <button type="button" id="start" name="start">Iniciar</button>
-                <button type="button" id="finish" name="finish">Finalizar</button>
+            <div style="width: 1rem;">
+                <button type="button" id="start" name="start"><ion-icon name="play-outline" style="margin-right: 5px;"></ion-icon> <!-- Ícone -->
+               </button>
+            </div>
+            
+            <div style="width: 1rem;">
+                <button type="button" id="finish" name="finish"><ion-icon name="stop-circle-outline"></ion-icon></button>
             </div>
 
             <div style="width: 10rem;">
@@ -56,14 +60,14 @@
                 <textarea id="obs" name="obs" rows="4" cols="50"></textarea>
             </div>
 
-            <div style="width: 5rem;">
+            <div style="width: 9rem;">
                 <label for="wpp">Whatsapp</label>
                 <input type="text" id="wpp" name="wpp">
             </div>
 
-            <div style="width: 10rem;">
+            <div style="width: 3rem;">
                 <label for="venci_cert">Vencimento Certificado</label>
-                <button id="calendario">Calendario</button>
+                <button id="calendario"><ion-icon name="calendar-outline"></ion-icon></button>
             </div>
 
             <div style="width: 10rem;">
@@ -75,9 +79,20 @@
                 <label for="revendedors">Revendedores</label>
                 <input type="text" id="revendedors" name="revendedors">
             </div>
-            <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
-            <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+
         </form>
     </div>
+    <div class="button-container">
+        <div class="button1">
+            <button id="save">Salvar</button>
+        </div>
+        <div class="button2">
+            <button id="cancel">Cancelar</button>
+        </div>
+    </div>
+
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
 </body>
+
 </html>

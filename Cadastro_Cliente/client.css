@@ -1,70 +1,101 @@
+ 
 body {
     font-family: Arial, sans-serif;
+    background-color: #757575;
     margin: 0;
     padding: 0;
-    background-color: #8d8d8d;
 }
 
 h1 {
     text-align: center;
-    color: #f7f7f7;
+    color: #ffffff;
     font-size: 50px;
 }
 
-.container {
-      color: #000;
-}
-
-form {
-    max-width: 600px;
-    margin: 0 auto;
-    background-color: #8d8d8d;  
-    border-radius: 10px;
+.center-container {
     display: flex;
-    gap: 5px;
-    flex-wrap: wrap;
-}
-label {
-    font-weight: bold;
-    display: flex;
-    margin-bottom: 10px; 
-    font-size: 16px;} 
-
-input[type="text"],
-input[type="file"],
-textarea,
-#wpp,
-#certfics,
-#revendedors {
-    width: 100%;  
-    padding: 2px;
-    border: 2px solid #000;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #757575;
+    padding: 50px;
     border-radius: 5px;
-}
-
-input:hover,
-input[type="text"]:hover,
-input[type="file"]:hover,
-textarea:hover,
-#wpp:hover,
-#certfics:hover,
-#revendedors:hover {
-    background-color: #eceaea;
-}
-
-button,
-#calendario {
-    padding: 5px 5px;
-    background-color: #a7a7a7;
-    color: #000;
-    border: 3px solid #000;
-    border-radius: 5px;
-    cursor: pointer;
-}
-
-button:hover,
-#calendario:hover {
-    background-color: #aaaaaa;
+    box-shadow: 0 0 10px rgb(110, 110, 110);
 }
 
  
+label {
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+input[type="text"],
+input[type="file"],
+select,
+textarea {
+    width: 100%;
+    padding: 2px;
+    margin-bottom: 10px;
+    border: 2px solid #000000;
+    border-radius: 4px;
+    /* area de balões*/
+}
+
+ 
+button {
+    background-color: #000000;
+    color: #a3a3a3;
+    border: 2px;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 4px;
+}
+
+ 
+#calendario {
+    background-color: #000000;
+    border: 2px;
+    cursor: pointer;
+    border-radius: 4px;
+}
+
+ 
+ion-icon {
+    font-size: 24px;
+    vertical-align: middle;
+}
+
+ 
+#obs {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+    border: 2px solid #000000;
+    border-radius: 4px;
+}
+
+ 
+form {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+ 
+div[style^="width"] {
+    flex: 1;
+    margin: 10px;
+}
+.button-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.button1,
+.button2 {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    margin: 0 10px;
+}

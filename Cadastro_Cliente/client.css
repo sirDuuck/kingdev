@@ -93,3 +93,14 @@ div[style^="width"] {
 .button-save, .button-cancel {
     margin: 0 10px;
 }
+button:hover{
+    background-color: #a3a3a3;
+    color: #000000;
+}
+input[type="text"]:hover,
+input[type="file"]:hover,
+select:hover,
+textarea:hover{
+    background-color: #d6d6d6;
+    color: #000000;
+}

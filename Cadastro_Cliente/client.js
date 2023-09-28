@@ -1,3 +1,15 @@
+//Calendario
+document.addEventListener("DOMcontentLoaded", function(){
+    const calendarioButton = document.getElementById("calendario");
+    const datepicker = new Pikaday({ field: calendarioButton});
+
+    calendarioButton.addEventListener("click", function(){
+        datepicker.show();
+    });
+});
+
+
+
 //Função Open Certificado
 document.getElementById("btnModal1").addEventListener("click", function() {
     document.getElementById("modal1").style.display = "block";

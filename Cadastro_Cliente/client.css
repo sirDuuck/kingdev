@@ -1,4 +1,3 @@
- 
 body {
     font-family: Arial, sans-serif;
     background-color: #757575;
@@ -9,7 +8,7 @@ body {
 h1 {
     text-align: center;
     color: #ffffff;
-    font-size: 50px;
+    font-size: 30px;
     margin-top: 5px;
 }
 
@@ -19,10 +18,10 @@ h1 {
     align-items: center;
     justify-content: center;
     background-color: #757575;
-    padding: 50px;
+    padding: 1cm;
     border-radius: 5px;
-    box-shadow: 0 0 10px rgb(110, 110, 110);
-    margin: 10px;
+    box-shadow: 0 0 10px rgb(10, 10, 10);
+    margin: 50px;
 }
 
 input[type="text"],
@@ -38,23 +37,28 @@ textarea {
 button {
     background-color: #000000;
     color: #a3a3a3;
-    border: 2px;
+    border: 2px solid #000000; 
+    padding: 1px 1cm;
+    cursor: pointer;
+    border-radius: 4px;
+}
+ 
+.button {
+    margin: 0 10px;
+}
+
+ 
+.button-icon {
+    background-color: #000000;
+    color: #a3a3a3;
+    border: 2px solid #000000;  
     padding: 10px 8px;
     cursor: pointer;
     border-radius: 4px;
 }
-#calendario-container {
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-    margin: 1px;
-}
-#calendario {
-    background-color: #000000;
-    border: 2px;
-    cursor: pointer;
-    border-radius: 4px;
-    
+
+.button-start, .button-finish {
+    text-align: left;
 }
 
 ion-icon {
@@ -62,7 +66,6 @@ ion-icon {
     vertical-align: middle;
 }
 
- 
 #obs {
     padding: 10px;
     margin-bottom: 1px;
@@ -70,27 +73,23 @@ ion-icon {
     border-radius: 4px;
 }
 
- 
 form {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
 }
 
- 
 div[style^="width"] {
     flex: 1;
-    margin: 10px;
+    margin: 4px;
 }
 
- 
 .button-container {
     display: flex;
     justify-content: center;
-    margin-top: 20px;
+    margin-top: 1px;
 }
 
-.button1,
-.button2 {
-    margin: 0 10px;  
+.button-save, .button-cancel {
+    margin: 0 10px;
 }

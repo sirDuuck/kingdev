@@ -2,13 +2,14 @@
 <html>
 <head>
     <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Cadastro do Cliente</title>
     <link rel="stylesheet" type="text/css" href="client.css">
 </head>
 <body>
     <h1>Cliente</h1>
     <div class="center-container">
-        <form>
+        <form action="processar.php" method="POST">
             <div style="width: auto;">
                 <label for="nome">Nome</label>
                 <input type="text" id="nome" name="nome">
@@ -47,12 +48,15 @@
             </div>
 
             <div style="width: auto;">
-                <button type="button" id="start" name="start"><ion-icon name="play-outline" style="margin-right: 5px;"></ion-icon> <!-- Ícone -->
-               </button>
+                <button type="button" id="start" name="start">
+                    <ion-icon name="play-outline" style="margin-right: 5px;"></ion-icon> Iniciar
+                </button>
             </div>
             
             <div style="width: auto;">
-                <button type="button" id="finish" name="finish"><ion-icon name="stop-circle-outline"></ion-icon></button>
+                <button type="button" id="finish" name="finish">
+                    <ion-icon name="stop-circle-outline"></ion-icon> Finalizar
+                </button>
             </div>
 
             <div style="width: auto;">
@@ -67,25 +71,26 @@
 
             <div style="width: auto;" id="calendario-container">
                 <label for="venci_cert">Vencimento Certificado</label>
-                <button id="calendario"><ion-icon name="calendar-outline"></ion-icon></button>
+                <button id="calendario">
+                    <ion-icon name="calendar-outline"></ion-icon>
+                </button>
             </div>
             
-            <button id="btnModel1" style="width: auto;">Certificado</button>
+            <button id="btnModel1">Certificado</button>
             <div id="modal1" class="modal1">
                 <div class="modal-content">
                     <span class="close" id="closeModal1">&times;</span>
-                   
+                    <!-- Conteúdo do modal 1 -->
                 </div>
             </div>
 
-            <button id="btnModal2" style="width: auto;">Revendedor</button>
+            <button id="btnModal2">Revendedor</button>
             <div id="modal2" class="modal">
-            <div class="modal-content">
-                <span class="close" id="closeModal2">&times;</span>
-               
-            </div>    
+                <div class="modal-content">
+                    <span class="close" id="closeModal2">&times;</span>
+                    <!-- Conteúdo do modal 2 -->
+                </div>
             </div>
-
         </form>
     </div>
     <div class="button-container">
@@ -100,5 +105,4 @@
     <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
     <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
 </body>
-
 </html>
